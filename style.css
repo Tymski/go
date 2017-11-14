@@ -1,0 +1,32 @@
+body,
+html {
+    margin: 0 auto;
+    background: #D6A652;
+}
+
+#game {
+    background-color: #D6A652;
+}
+
+#menu {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+    padding-top:20px;
+    
+}
+
+.menuitem{
+    padding:10px;
+    border: 1px solid rgb(80, 58, 24);
+    background-color: rgb(126, 96, 45);
+}
+
+.selected{
+    background-color: red;
+}
+
+.turnedOn {
+    background-color: rgb(26, 31, 21);
+}

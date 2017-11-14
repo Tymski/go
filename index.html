@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Go</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js/pixi.min.js"></script>
+</head>
+
+<body>
+    <canvas id="game"></canvas>
+    <div id="menu">
+        <img class="menuitem" id="p0" src="img/BlackRoundStone.png" width="64" height="64" onclick="changePlayer(0)">
+        <br>
+        <img class="menuitem"  id="p1" src="img/WhiteRoundStone.png" width="64" height="64" onclick="changePlayer(1)">
+        <br>
+        <img class="menuitem" id="p2" src="img/BlackSquareStone.png" width="64" height="64" onclick="changePlayer(2)">
+        <br>
+        <img class="menuitem" id="p3" src="img/WhiteSquareStone.png" width="64" height="64" onclick="changePlayer(3)">
+        <br>
+        <img class="menuitem" id="ss" src="img/Switch.png" width="64" height="64" onclick="switchswitch(this)">
+        <br>
+    </div>
+</body>
+
+</html>
+
+<script src="js/script.js"></script>
