@@ -132,10 +132,11 @@ function onPointerDown(event) {
             (this.player == currentPlayer && !switchPlayersBool)) {
             this.texture = textures.empty;
         }
-        if (switchPlayersBool && this.player == currentPlayer) {
+        if (switchPlayersBool && this.player == (currentPlayer + 3) % 4) {
             switchPlayers();
             switchPlayers();
             switchPlayers();
+            this.texture = textures.empty;
         }
     } else {
         if (this.texture == textures.empty) {
